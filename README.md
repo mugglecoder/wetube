@@ -1,3 +1,3 @@
 # WETUBE
 
-fuck
+learning javascript
