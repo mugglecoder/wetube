@@ -1,3 +1,3 @@
-# WETUBE
+# WeTube
 
-learning javascript
+i can do it
