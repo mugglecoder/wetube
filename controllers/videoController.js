@@ -1,12 +1,13 @@
-//import { videos } from "../db";
+import { videos } from "../db";
 
-export const home = (req, res) => res.render("home", { pageName: "Home" });
+export const home = (req, res) =>
+  res.render("home", { pageName: "Home", videos });
 
 export const search = (req, res) => {
   const {
     query: { term: searchingBy }
   } = req;
-  res.render("Search", { pageName: "Search", searchingBy });
+  res.render("Search", { pageName: "Search", searchingBy, videos });
 };
 
 //export const videos = (req, res) =>
