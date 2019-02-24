@@ -1,24 +1,11 @@
-<<<<<<< HEAD
 extends layouts/main
-=======
-extends layout/main
->>>>>>> b3c1e9728956591cf4a3e1f97f1d17fdc4fe44c2
 
 block content
     .form-container
         form(action=routes.join, method="post")
-<<<<<<< HEAD
             input(type="text", name="name", placeholder="Full Name",required=true)        
             input(type="email", name="email", placeholder="Email",required=true)
             input(type="password", name="password", placeholder="Password",required=true)
             input(type="password", name="password2", placeholder="Verify Password",required=true)
             input(type="submit",value="Join Now")
         include partials/socialLogin
-=======
-            input(type="text", name="name", placeholder="name",required=true)
-            input(type="email", name="email", placeholder="email",required=true)
-            input(type="password", name="password", placeholder="password",required=true)
-            input(type="password", name="password2", placeholder="Verify password",required=true)
-            input(type="submit", value="Join Now!")
-        include partials/socialLogin
->>>>>>> b3c1e9728956591cf4a3e1f97f1d17fdc4fe44c2

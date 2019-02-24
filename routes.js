@@ -1,8 +1,4 @@
 // Global
-<<<<<<< HEAD
-=======
-
->>>>>>> b3c1e9728956591cf4a3e1f97f1d17fdc4fe44c2
 const HOME = "/";
 const JOIN = "/join";
 const LOGIN = "/login";
@@ -16,11 +12,7 @@ const USER_DETAIL = "/:id";
 const EDIT_PROFILE = "/edit-profile";
 const CHANGE_PASSWORD = "/change-password";
 
-<<<<<<< HEAD
 // Videos
-=======
-// Video
->>>>>>> b3c1e9728956591cf4a3e1f97f1d17fdc4fe44c2
 
 const VIDEOS = "/videos";
 const UPLOAD = "/upload";
@@ -53,7 +45,6 @@ const routes = {
       return VIDEO_DETAIL;
     }
   },
-<<<<<<< HEAD
   editVideo: id => {
     if (id) {
       return `/videos/${id}/edit`;
@@ -68,10 +59,6 @@ const routes = {
       return DELETE_VIDEO;
     }
   }
-=======
-  editVideo: EDIT_VIDEO,
-  deleteVideo: DELETE_VIDEO
->>>>>>> b3c1e9728956591cf4a3e1f97f1d17fdc4fe44c2
 };
 
 export default routes;

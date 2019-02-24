@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import multer from "multer";
 import routes from "./routes";
 
@@ -29,16 +28,3 @@ export const onlyPrivate = (req, res, next) => {
 };
 
 export const uploadVideo = multerVideo.single("videoFile");
-=======
-import routes from "./routes";
-
-export const middlewares = (req, res, next) => {
-  res.locals.siteName = "WeTube";
-  res.locals.routes = routes;
-  res.locals.user = {
-    isAuthenticated: true,
-    id: 1
-  };
-  next();
-};
->>>>>>> b3c1e9728956591cf4a3e1f97f1d17fdc4fe44c2

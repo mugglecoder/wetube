@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 extends layouts/main
 
 block content
@@ -11,15 +10,3 @@ block content
             textarea(name="description", placeholder="Description", required=true)
             input(type="submit", value="Upload Video")
             
-=======
-extends layout/main
-
-block content
-    .form-container
-        form(action=`/videos${routes.upload}`, method="post")
-            label(for="file") Video File
-            input(type="file", id="file", name="file", required=true)
-            input(type="text", placeholder="Title", name="title", required=true)
-            textarea(name="description", placeholder="Description", required=true)
-            input(type="submit", value="Upload Video")
->>>>>>> b3c1e9728956591cf4a3e1f97f1d17fdc4fe44c2
